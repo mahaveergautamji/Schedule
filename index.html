@@ -33,6 +33,7 @@
         <!-- Login View -->
         <div id="login-view" class="w-full max-w-md">
             <div class="glass-effect rounded-2xl shadow-2xl p-8">
+                <img src="https://cdn.brandfetch.io/csjmu.ac.in/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed" alt="CSJMU Logo" class="mx-auto h-24 w-24 mb-4 rounded-full">
                 <div class="text-center mb-8">
                     <h1 class="text-3xl font-bold text-white">UIET Timetable</h1>
                     <p class="text-gray-300 mt-2">1st Year, 1st Semester (2K25 Batch)</p>
@@ -102,7 +103,7 @@
     </div>
 
     <script>
-        // --- DATA STORE ---
+        // --- DATA STORE (UPDATED AND COMPLETE) ---
         const studentData = {
             'CSE1': [
                 { roll: '25001390001', name: 'AAYUSH CHAURASIYA' }, { roll: '25001390002', name: 'ABHIJEET SINGH' }, { roll: '25001390003', name: 'ABHINANDAN RAJ' },
@@ -119,20 +120,18 @@
                 { roll: '25001390034', name: 'ANKIT KUMAR' }, { roll: '25001390035', name: 'ANSH VERMA' }, { roll: '25001390036', name: 'ANSHIKA SAHU' },
                 { roll: '25001390037', name: 'ANSHIKA SINGH' }, { roll: '25001390038', name: 'ANSHIKA SRIVASTAVA' }, { roll: '25001390039', name: 'ANSHU YADAV' },
                 { roll: '25001390040', name: 'ANSHUL RAJPUT' }, { roll: '25001390041', name: 'ANSHUMAN BAJPAI' }, { roll: '25001390042', name: 'ANURAN CHOWDHURY' },
-                { roll: '25001390043', name: 'ANUSHRI SHRAWAN' }, { roll: '25001390044', name: 'ARADHYA DWIVEDI' }, { roll: '25001390045', name: 'ARCHISHA KUMAR' }
+                { roll: '25001390043', name: 'ANUSHRI SHRAWAN' }, { roll: '25001390044', name: 'ARADHYA DWIVEDI' }, { roll: '25001390045', name: 'ARCHISHA KUMAR' },
+                { roll: '25001390046', name: 'ARIB TAIYAB' }
             ],
             'CSE2': [
-                { roll: '25001390046', name: 'ARIB TAIYAB' }, { roll: '25001390067', name: 'DOLI KUMARI' }, { roll: '25001390068', name: 'GARIMA RAJPUT' }, 
-                { roll: '25001390069', name: 'HAMIRA AZMI' }, { roll: '25001390070', name: 'HARSHIT' }, { roll: '25001390071', name: 'HARSHIT HIMKAR' }, 
-                { roll: '25001390072', name: 'HIMANSHU VERMA' }, { roll: '25001390073', name: 'ISHA KUMARI' }, { roll: '25001390074', name: 'JAGRITI RAI' }, 
-                { roll: '25001390075', name: 'JAHNVI' }, { roll: '25001390076', name: 'JAI SHIVAM SINGH' }, { roll: '25001390077', name: 'JANSHU VERMA' }, 
-                { roll: '25001390078', name: 'JANVI GUPTA' }, { roll: '25001390079', name: 'KANAK RAJPUT' }, { roll: '25001390080', name: 'KANISHK JAIN' }, 
-                { roll: '25001390081', name: 'KARTIK BHARTIYA' }, { roll: '25001390082', name: 'KESAR JAISWAL' }, { roll: '25001390083', name: 'KHUSHI SAINI' }, 
-                { roll: '25001390084', name: 'KHUSHI SINGH' }, { roll: '25001390085', name: 'KHUSHI YADAV' }, { roll: '25001390086', name: 'KRISHNA' }, 
-                { roll: '25001390087', name: 'KRISHNA KUMARY' }, { roll: '25001390088', name: 'KUNAL KUMAR SINGH' }, { roll: '25001390089', name: 'MAHAVEER GAUTAM' }, 
-                { roll: '25001390090', name: 'MAHI' }
-            ],
-            'CSE3': [
+                { roll: '25001390067', name: 'DOLI KUMARI' }, { roll: '25001390068', name: 'GARIMA RAJPUT' }, { roll: '25001390069', name: 'HAMIRA AZMI' },
+                { roll: '25001390070', name: 'HARSHIT' }, { roll: '25001390071', name: 'HARSHIT HIMKAR' }, { roll: '25001390072', name: 'HIMANSHU VERMA' },
+                { roll: '25001390073', name: 'ISHA KUMARI' }, { roll: '25001390074', name: 'JAGRITI RAI' }, { roll: '25001390075', name: 'JAHNVI' },
+                { roll: '25001390076', name: 'JAI SHIVAM SINGH' }, { roll: '25001390077', name: 'JANSHU VERMA' }, { roll: '25001390078', name: 'JANVI GUPTA' },
+                { roll: '25001390079', name: 'KANAK RAJPUT' }, { roll: '25001390080', name: 'KANISHK JAIN' }, { roll: '25001390081', name: 'KARTIK BHARTIYA' },
+                { roll: '25001390082', name: 'KESAR JAISWAL' }, { roll: '25001390083', name: 'KHUSHI SAINI' }, { roll: '25001390084', name: 'KHUSHI SINGH' },
+                { roll: '25001390085', name: 'KHUSHI YADAV' }, { roll: '25001390086', name: 'KRISHNA' }, { roll: '25001390087', name: 'KRISHNA KUMARY' },
+                { roll: '25001390088', name: 'KUNAL KUMAR SINGH' }, { roll: '25001390089', name: 'MAHAVEER GAUTAM' }, { roll: '25001390090', name: 'MAHI' },
                 { roll: '25001390091', name: 'MANAS BALIASE' }, { roll: '25001390092', name: 'MANAV PRAKASH' }, { roll: '25001390093', name: 'MANISHA VISHWAKARMA' },
                 { roll: '25001390094', name: 'MOHD SALIK' }, { roll: '25001390095', name: 'MONIS KHAN' }, { roll: '25001390096', name: 'NAWASVI KANAUJIA' },
                 { roll: '25001390097', name: 'NEHA KUMARI' }, { roll: '25001390098', name: 'NIKHIL' }, { roll: '25001390099', name: 'NIKHIL' },
@@ -140,14 +139,16 @@
                 { roll: '25001390103', name: 'PRADEEP SHARMA' }, { roll: '25001390104', name: 'PRADHUMN BHADAURIYA' }, { roll: '25001390105', name: 'PRAKHAR SINGH RATHORE' },
                 { roll: '25001390106', name: 'PRASHANT KUMAR' }, { roll: '25001390107', name: 'PRASHANT VERDHAN' }, { roll: '25001390108', name: 'PRATIBHA DUBEY' },
                 { roll: '25001390109', name: 'PRATIBHA SINGH' }, { roll: '25001390110', name: 'PRATISHTHA JAISWAL' }, { roll: '25001390111', name: 'PRATYAKSH KUSHWAHA' },
-                { roll: '25001390112', name: 'PRIYAM MISHRA' }, { roll: '25001390133', name: 'SANDHYA VERMA' }, { roll: '25001390134', name: 'SANKALP' }, 
-                { roll: '25001390135', name: 'SARTHAK SINGH' }, { roll: '25001390136', name: 'SATYAPAL' }, { roll: '25001390137', name: 'SAUMYA KATIYAR' }, 
-                { roll: '25001390138', name: 'SAURABH BAJPAI' }, { roll: '25001390139', name: 'SAURABH KANT' }, { roll: '25001390140', name: 'SAURABH KUMAR' }, 
-                { roll: '25001390141', name: 'SHAURYA KAMAL' }, { roll: '25001390142', name: 'SHEKHAR YADAV' }, { roll: '25001390143', name: 'SHIKHA VERMA' }, 
-                { roll: '25001390144', name: 'SHIVAM YADAV' }, { roll: '25001390145', name: 'SHIVANGI SHARMA' }, { roll: '25001390146', name: 'SHOBHIT SINGH' }, 
-                { roll: '25001390147', name: 'SHREYA TRIVEDI' }, { roll: '25001390148', name: 'SHREYA VERMA' }, { roll: '25001390149', name: 'SHREYA YADAV' }, 
-                { roll: '25001390150', name: 'SHREYANSH RAI' }, { roll: '25001390151', name: 'SHUBHAM JHA' }, { roll: '25001390152', name: 'SHUBHAM KUMAR VERMA' }, 
-                { roll: '25001390153', name: 'SHUBHAM SINGH' }
+                { roll: '25001390112', name: 'PRIYAM MISHRA' }, { roll: '25001390113', name: 'AYUSH JAISWAL' }, { roll: '25001390114', name: 'RISHABH SHUKLA' }
+            ],
+            'CSE3': [
+                { roll: '25001390133', name: 'SANDHYA VERMA' }, { roll: '25001390134', name: 'SANKALP' }, { roll: '25001390135', name: 'SARTHAK SINGH' },
+                { roll: '25001390136', name: 'SATYAPAL' }, { roll: '25001390137', name: 'SAUMYA KATIYAR' }, { roll: '25001390138', name: 'SAURABH BAJPAI' },
+                { roll: '25001390139', name: 'SAURABH KANT' }, { roll: '25001390140', name: 'SAURABH KUMAR' }, { roll: '25001390141', name: 'SHAURYA KAMAL' },
+                { roll: '25001390142', name: 'SHEKHAR YADAV' }, { roll: '25001390143', name: 'SHIKHA VERMA' }, { roll: '25001390144', name: 'SHIVAM YADAV' },
+                { roll: '25001390145', name: 'SHIVANGI SHARMA' }, { roll: '25001390146', name: 'SHOBHIT SINGH' }, { roll: '25001390147', name: 'SHREYA TRIVEDI' },
+                { roll: '25001390148', name: 'SHREYA VERMA' }, { roll: '25001390149', name: 'SHREYA YADAV' }, { roll: '25001390150', name: 'SHREYANSH RAI' },
+                { roll: '25001390151', name: 'SHUBHAM JHA' }, { roll: '25001390152', name: 'SHUBHAM KUMAR VERMA' }, { roll: '25001390153', name: 'SHUBHAM SINGH' }
             ],
             'CSE-AI': [
                 { roll: '25001390231', name: 'ABHAY KUMAR' }, { roll: '25001390232', name: 'ABHISHEK SINGH' }, { roll: '25001390233', name: 'ABHISHEK VERMA' },
@@ -157,7 +158,7 @@
                 { roll: '25001390243', name: 'ANUJ KUMAR RANJAN' }, { roll: '25001390244', name: 'ANURAG SINGH' }, { roll: '25001390245', name: 'ARPIT SINGH KUSHWAHA' },
                 { roll: '25001390246', name: 'AYUSH TRIPATHI' }, { roll: '25001390247', name: 'GAURAV' }, { roll: '25001390248', name: 'HARSH KUMAR' },
                 { roll: '25001390249', name: 'KAMANA SRIVASTAVA' }, { roll: '25001390250', name: 'KASHISH SINGH' }, { roll: '25001390251', name: 'KAVYA BISHT' },
-                { roll: '25001390252', name: 'KISHAN SHUKLA' }, { roll: '25001390253', name: 'KRITARTH BAJPAI' }
+                { roll: '25001390252', name: 'KISHAN SHUKLA' }, { roll: '25001390253', name: 'KRITARTH BAJPAI' }, { roll: '25001390254', name: 'AYUSH JAISWAL' }
             ]
         };
 
@@ -302,7 +303,20 @@
                     showDashboard();
                     startClock();
                 } else {
-                    showError('Invalid Roll Number for the selected branch. Please check and try again.');
+                    // **IMPROVED ERROR HANDLING**
+                    let foundInBranch = null;
+                    for (const key in studentData) {
+                        if (studentData[key].find(s => s.roll === rollNumber)) {
+                            foundInBranch = key;
+                            break; 
+                        }
+                    }
+
+                    if (foundInBranch) {
+                        showError(`Roll number found in ${foundInBranch}. Please select the correct branch and try again.`);
+                    } else {
+                        showError('This roll number was not found. Please check and try again.');
+                    }
                 }
             });
 
@@ -315,30 +329,38 @@
 
             // Find a student in the data store
             function findStudent(branch, rollNumber) {
-                // Combine all student lists to check for existence first
-                const allStudents = [...studentData.CSE1, ...studentData.CSE2, ...studentData.CSE3, ...studentData['CSE-AI']];
-                const foundStudent = allStudents.find(s => s.roll === rollNumber);
+                const studentsInBranch = studentData[branch] || [];
+                const foundStudent = studentsInBranch.find(s => s.roll === rollNumber);
                 
                 if (!foundStudent) return null;
 
-                // **CORRECTED LOGIC**: Determine group based on official roll number ranges
+                // **MANUAL OVERRIDE FOR AYUSH JAISWAL**
+                if (rollNumber === '25001390113') {
+                    return {
+                        ...foundStudent,
+                        branch: 'CSE2',
+                        section: 'A',
+                        labGroup: 'A2'
+                    };
+                }
+
+                // Determine group based on official roll number ranges
                 const rollNum = parseInt(rollNumber);
                 let labGroup = '';
                 let section = '';
 
                 if (rollNum >= 25001390001 && rollNum <= 25001390045) { labGroup = 'A1'; section = 'A'; }
                 else if (rollNum >= 25001390046 && rollNum <= 25001390090) { labGroup = 'A2'; section = 'A'; }
-                else if (rollNum >= 25001390091 && rollNum <= 25001390135) { labGroup = 'A3'; section = 'A'; } // Note: A3 covers CSE2 and CSE3 according to image
+                else if (rollNum >= 25001390091 && rollNum <= 25001390135) { labGroup = 'A3'; section = 'A'; }
                 else if (rollNum >= 25001390136 && rollNum <= 25001390180) { labGroup = 'B1'; section = 'B'; }
-                else if (rollNum >= 25001390181 && rollNum <= 25001390245) { labGroup = 'B2'; section = 'B'; } // B2 covers part of CSE3 and CSE-AI
+                else if (rollNum >= 25001390181 && rollNum <= 25001390245) { labGroup = 'B2'; section = 'B'; }
                 else if (rollNum >= 25001390246 && rollNum <= 25001390290) { labGroup = 'B3'; section = 'B'; }
-                // Add other sections (C, D) if needed
                 
                 if (!labGroup) return null; // Not in any defined CSE/AI group
 
                 return {
                     ...foundStudent,
-                    branch: foundStudent.branch || branch, // Use branch from data if available
+                    branch,
                     section,
                     labGroup
                 };
@@ -377,7 +399,11 @@
                 const now = new Date();
                 document.getElementById('current-time').textContent = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
                 document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-                highlightCurrentClass();
+                const today = new Date().toLocaleDateString('en-US', { weekday: 'short' });
+                const activeDayButton = document.querySelector('.day-selector-btn.active');
+                if (activeDayButton && activeDayButton.dataset.day === today) {
+                    highlightCurrentClass(today);
+                }
             }
             
             // Render the main dashboard content
@@ -495,7 +521,11 @@
             function highlightCurrentClass(selectedDay) {
                 const today = new Date().toLocaleDateString('en-US', { weekday: 'short' });
                 if (selectedDay !== today) {
-                    return; // Don't highlight if we are not viewing today's schedule
+                    const rows = document.querySelectorAll('#daily-table tbody tr');
+                    rows.forEach(row => {
+                        row.classList.remove('bg-green-500/20', 'ring-2', 'ring-green-400');
+                    });
+                    return; 
                 }
 
                 const now = new Date();
